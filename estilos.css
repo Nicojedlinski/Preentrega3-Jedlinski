@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 2px;
+}
+
+h1 {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  padding: 20px;
+  text-align: center;
+}
+
+.encabezado {
+  height: 200px;
+  width: 100%;
+  background-color: whitesmoke;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.encabezado__barra {
+  height: 100%;
+  width: 99%;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.encabezado__barra ul {
+  list-style: none;
+  text-align: center;
+}
+
+.encabezado__barra a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.encabezado__barra ul li {
+  display: inline-block;
+}
+
+.encabezado__barra a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+video {
+  text-align: left;
+  height: 100%;
+  width: 50%;
+}
+
+.vid {
+  height: 100%;
+  width: auto;
+  background-color: whitesmoke;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  float: right;
+}
+
+#pablo {
+  color: midnightblue;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+iframe {
+  float: right;
+}
+
+form {
+  float: left;
+}
+
+.encabezado--small {
+  height: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: whitesmoke;
+}
+
+.encabezado--small1 {
+  background-color: whitesmoke;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.encabezado__barra1 {
+  background-color: whitesmoke;
+  font-size: 18px;
+  padding: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px;
+}
+
+.contacto {
+  height: 150 px;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: left;
+  margin: 5px;
+}
+
+.title {
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.nicored {
+  text-decoration: underline;
+}
+
+.nosotros a {
+  text-decoration: none;
+  color: black;
+  background-color: rgba(105, 105, 105, 0.5);
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.encabezado__barra1 a {
+  color: black;
+  font-size: 23px;
+  text-align: center;
+}
+
+.encabezado__barra1 a:hover {
+  text-shadow: 0 0 5px grey;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  position: fixed;
+  right: 18px;
+  bottom: 20px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px whitesmoke;
+}
+
+h3 {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.sec {
+  height: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  padding: 10px;
+  margin: 10px;
+}
+
+.nosotros {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 20px;
+  animation-name: aprovecha;
+  animation-duration: 7s;
+  text-transform: capitalize;
+}
+
+@keyframes aprovecha {
+  0% {
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  50% {
+    text-decoration: solid;
+    height: 40px;
+  }
+  100% {
+    background-color: none;
+    text-decoration: none;
+    text-transform: none;
+    height: 20px;
+  }
+}
+.nleft {
+  background-image: url(img/closet-gd908c1d19_1920.jpg);
+  height: 100%;
+  width: 500px;
+  background-position: center;
+}
+
+.nright {
+  padding: 20px;
+}
+
+.nright h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nright p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p .copy {
+  text-align: center;
+}
+
+form {
+  margin: 10px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+iframe {
+  margin: 10px;
+}
+
+.titulocontacto {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  width: 99%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.inisesion {
+  text-align: right;
+  text-transform: none;
+  text-decoration: none;
+  height: 10px;
+}
+
+.crearcuenta {
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.imagenescontacto {
+  display: flex;
+  margin: 20px;
+}
+
+.parrafocontacto {
+  margin: 5px;
+}
+
+.nico {
+  margin: 5px;
+}
+
+.nico2 {
+  margin: 5px;
+}
+
+.animacion {
+  text-decoration: none;
+  animation-name: cambiarcolor1;
+  animation-duration: 10s;
+}
+
+@keyframes cambiarcolor1 {
+  0% {
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  50% {
+    text-decoration: solid;
+  }
+  100% {
+    background-color: none;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .inisesion {
+    text-align: right;
+    margin: 2px;
+    width: 10%;
+  }
+  body {
+    margin: 2px;
+    text-decoration: none;
+  }
+  .imagenes {
+    height: 310px;
+    width: 100px;
+    align-content: center;
+    image-orientation: initial;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+  .iframe {
+    align-self: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+  }
+  .imagenes1 {
+    height: 500px;
+    width: 100px;
+    background-position: center;
+    background-size: contain;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+  .imagenes {
+    background-position: center;
+    background-size: cover;
+  }
+  .iframe {
+    align-self: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .inisesion {
+    text-align: right;
+    margin: 10px;
+    width: 92%;
+  }
+  body {
+    margin: 5px;
+  }
+  .imagenes {
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+  }
+  .imagen1 {
+    margin: 2px;
+    width: 98%;
+  }
+}
+.mediosdepagos {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.mediosdepagos {
+  margin: 2px;
+  text-align: center;
+}
+
+.remeras {
+  margin: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10px;
+  grid-row-gap: 40px;
+  justify-items: center;
+}
+
+carousel-indicators li {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.sec {
+  width: 100%;
+}
+
+.imagenes {
+  background-position: center;
+  width: 350px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
