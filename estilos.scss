@@ -151,9 +151,9 @@ form{
 }
 
 video{
-   height: 100%;
-   width: 100%;
-   padding: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
 }
 
 .encabezado__barra1 a{
@@ -203,6 +203,7 @@ h3{
     justify-content: space-around;
     align-items: center;
 }
+
 
 img{
     padding: 10px;
@@ -409,14 +410,21 @@ carousel-inner img{
     }
 
     .imagenes{
-        height: 310px;
-        width: 100px;
-        align-content: center;
-        image-orientation: initial;
-        text-align: center;
-        background-size: cover;
-        background-position: center;
+        height: 20px;
+        width: 50%;
+        min-width: 350px;
+        margin: 4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
     }
+    .titulo{
+        text-align: center;
+        height: 12px; 
+        min-width: 350px;
+    }
+
     .iframe{
         align-self: center;
         background-size: cover;
@@ -468,3 +476,5 @@ carousel-inner img{
         width: 98%;
     }
 }
+
+
